@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Divisibles por 7</title>
+</head>
+<body>
+  <script>
+    function numeros() {
+      let resultados = [];
+        for (let i = 7; i <= 350; i++) {
+              if (i % 7 === 0) {
+                resultados.push(i);
+              }
+            }
+            return resultados;
+        }
+        let numerosDivisibles = numeros();
+
+        console.log('Los números que son divisibles por 7 son ', numerosDivisibles);
+    </script>
+
+</body>
+</html>
