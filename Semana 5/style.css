@@ -1,0 +1,92 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: teal; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: mediumaquamarine; 
+  padding: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.icon-cart {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+}
+
+.container-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.item {
+  width: 45%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: floralwhite; 
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  background-color: darkolivegreen; 
+}
+
+.item figure {
+  margin-top: 10px;
+}
+
+.Price {
+  color: green;
+  font-weight: bold;
+}
+
+.a {
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: blue; 
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin-right: 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar-nav a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
