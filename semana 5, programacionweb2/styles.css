@@ -1,0 +1,43 @@
+body {
+  background-image: url("serie\ 5.png");
+  text-align: center;
+  color: white; /* Cambiar el color del texto a blanco */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  color: black; /* Color de texto negro */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+}
