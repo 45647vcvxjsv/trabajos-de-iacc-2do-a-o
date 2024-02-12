@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    /* Estilos personalizados */
+    body {
+      background-image: url('3.png'); /* Ruta de la imagen de fondo */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    #contacto {
+      padding-top: 50px;
+      padding-bottom: 100px;
+      color: white; /* Cambia el color del texto para que sea legible en la imagen de fondo */
+    }
+    #mapa {
+      height: 200px;
+    }
+    .input-container {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    .input-container input {
+      width: calc(100% - 40px);
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: #f8f9fa;
+    }
+    .input-container .icon {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 30px;
+      background-image: url('llave.png'); /* Ruta de la imagen de la llave */
+      background-size: cover;
+    }
+    #auto {
+      width: 400px;
+      margin: 0 auto 20px;
+      display: flex;
+    }
+
+    h2{
+      color: khaki;
+    }
+    p{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div id="contacto" class="row">
+      <div class="col-md-12 text-center">
+        <h2><strong>Encuentranos</strong></h2>
+        <p><strong>+5682314587</strong></p>
+        <p><strong>Direccion: Santa Paola 23, República</strong></p>
+        <img src="2.jpg" alt="Dibujo de un automóvil" id="auto">
+      </div>
+
+      <div class="col-md-12 text-center">
+        <h2>Información del vehículo</h2>
+       
+        <div class="input-container">
+          <input type="text" placeholder="Marca">
+          <div class="icon"></div> 
+        </div>
+        
+        <div class="input-container">
+          <input type="text" placeholder="Modelo">
+          <div class="icon"></div> 
+        </div>
+       
+        <div class="input-container">
+          <input type="text" placeholder="Color">
+          <div class="icon"></div> 
+        </div>
+        
+        <div class="input-container">
+          <input type="text" placeholder="Patente">
+          <div class="icon"></div> 
+        </div>
+        <div class="input-container">
+          <input type="number" placeholder="Año">
+          <div class="icon"></div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+</body>
+</html>
